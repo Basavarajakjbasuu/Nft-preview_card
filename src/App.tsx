@@ -2,7 +2,7 @@ import Equilibrium from './assets/images/image-equilibrium.jpg';
 import Avatar from './assets/images/image-avatar.png';
 
 const App = () => {
-	const style = {
+	const style: { [key: string]: string | number } = {
 		'--width': 200,
 		'--height': 200,
 	};
